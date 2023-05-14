@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "userId": 1,
+      "id": 19,
+      "title": "study",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 20,
+      "title": "do laundry",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": 21,
+      "title": "sweep the floor",
+      "completed": false
+    }
+  ]
+}
