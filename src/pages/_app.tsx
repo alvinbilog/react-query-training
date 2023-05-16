@@ -7,7 +7,7 @@ import {
   QueryClientProvider,
 } from '@tanstack/react-query';
 import type { AppProps } from 'next/app';
-import Todos from './todos';
+import Posts from './posts';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <Todos />
+      <Posts />
       <ReactQueryDevtools initialIsOpen={true} />
     </QueryClientProvider>
   );
